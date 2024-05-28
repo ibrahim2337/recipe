@@ -43,7 +43,7 @@ const Navbar = () => {
           </div>
 
           <ul
-            className={`w-full text-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0  md:w-auto transition-all duration-500 ease-in ${
+            className={`w-full  text-center md:pb-0 pb-12 absolute md:static md:z-auto z-[-1] left-0  md:w-auto transition-all duration-500 ease-in ${
               isOpen ? "top-20 " : "top-[-490px]"
             } ${
               isOpen &&
